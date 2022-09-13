@@ -1,0 +1,47 @@
+
+
+body {
+   background:skyblue;
+   
+    
+   
+ 
+}
+.main .reset{
+  margin-bottom: 350px !important;
+}
+ h4 .title{
+     
+     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px !important;
+     
+
+}
+
+.main {
+    color: white;
+    box-shadow: 5px 5px 15px 5px #000000 !important;
+
+    border-radius: 16px 16px 0px 0px;
+    background-image:  url(https://i.ibb.co/HD1Gb24/pexels-erik-karits-3732494.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+button .rest{
+    background: red;
+}
+
+
+@media (max-width: 768px) {
+  footer{
+   
+    height:100px;
+  }
+  }
+   

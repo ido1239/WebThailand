@@ -1,0 +1,127 @@
+main {
+  background-image: url(https://i.ibb.co/BsByVM7/hotel3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main h2 {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-style: italic;
+  font-size: 5em;
+}
+
+
+
+main .contacts {
+  /* border-bottom: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  40px -50px 0px -5px rgba(0, 0, 0, 0);
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  40px -50px 0px -5px rgba(0, 0, 0, 0);
+margin-bottom: 32px;; */
+-webkit-box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82); 
+box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82);
+border-radius: 45%;
+margin-bottom: 16px;
+}
+main form {
+  margin-bottom: 12px;
+  /* -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    40px -50px 0px -5px rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    40px -50px 0px -5px rgba(0, 0, 0, 0);
+  margin-top: 8px; */
+  -webkit-box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82); 
+box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82);
+border-radius: 9%;
+margin-bottom: 16px;
+}
+
+
+main .fa-smile-o {
+  color: blue;
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+main .rows .left {
+  min-height: 80px;
+  
+}
+main .rows .left .mail {
+  font-size: 1.7em;
+}
+
+main .rows .right {
+  min-height: 80px;
+}
+
+main .rows .right .mail {
+  font-size: 1em;
+  font-weight: bolder;
+ 
+}
+
+main .rows .right .mail:hover {
+  color: aquamarine;
+  transition: 1000ms;
+  transform: translate(0, 20px);
+}
+
+.fa-envelope-o:hover {
+  color: aquamarine;
+  transition: 1000ms;
+  transform: scale(1.5);
+  border-radius: 25%;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fa-phone:hover {
+  color: aquamarine;
+  transition: 1000ms;
+  transform: scale(1.5);
+  border-radius: 25%;
+  transform: rotate(360deg);
+}
+
+main .rows .left .para {
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: black;
+}
+
+main .rows .left .para:hover {
+  color: aquamarine;
+  transition: 1000ms;
+  transform: translate(0, 20px);
+}
+.middle{
+  border-radius: 8px;
+  
+  width: 14% !important;
+  
+}
+
+@media (max-width: 768px) {
+ 
+  main {
+    margin: 0;
+    padding: 8px;
+  }
+
+  main h2 {
+    font-size: 2.5em;
+  }
+  
+  .middle{
+    border-radius: 8px;
+width: 42% !important;
+    
+    
+  }
+  
+}

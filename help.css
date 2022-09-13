@@ -1,0 +1,171 @@
+
+header {
+  background: rgba(66, 194, 244, 0.463);
+ 
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a::after{
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+background: black;
+  transition: 1000ms;
+  margin: 0 auto;
+}
+
+/* nav a::before{
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background: rgb(0, 119, 255);
+  transition: 1000ms;
+  margin: 0 auto;
+} */
+
+nav a:hover::after{
+  width: 100%;
+  
+}
+/* nav a:hover::before{
+  width: 100%;
+
+} */
+
+
+header nav ul {
+  display: flex;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav .burger{
+  cursor: pointer;
+}
+
+header nav ul li a:hover {
+  color: black;
+  transition: 1s;
+}
+
+
+
+main {
+  min-height: 700px;
+  background: green;
+}
+
+footer {
+  min-height: 45px;
+ background: rgb(66, 194, 244);
+}
+
+footer a i {
+  color: black;
+ 
+}
+footer a i:hover {
+  color: rgba(122, 113, 113, 0.801);
+  transform: scale(1.5, 1.5);
+}
+
+
+
+@media (max-width: 768px) {
+  header nav .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+ 
+
+  header nav ul li {
+    padding: 15px;
+    text-align: center;
+    
+  }
+  header nav ul li:hover {
+    /* background: wheat;
+    cursor: pointer;
+    transition: 800ms;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      4px 20px 46px -16px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 10px 13px -7px #000000,
+      4px 20px 46px -16px rgba(0, 0, 0, 0.13); */
+  }
+  header nav ul li a:hover {
+    color: black;
+    transition: 1000ms;
+    transform: scale(1.1);
+    -webkit-box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82); 
+box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82);
+  }
+  header nav ul li:last-of-type {
+    border-bottom: none;
+    border-radius: 0 0 20px 0;
+  }
+  header nav ul {
+    left: 0;
+    display: none;
+    width: 100% !important;
+    background: skyblue;
+    position: absolute;
+    padding: 0 !important;
+    top: 55px;
+    border-radius: 0 0 14px 0px;
+    border-bottom: 1px solid black;
+    height: 100vh;
+
+}
+
+  nav a::after{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background: rgb(0, 119, 255);
+    transition: 1000ms;
+    margin: 0 auto;
+  }
+  
+  nav a::before{
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background: rgb(0, 119, 255);
+    transition: 1000ms;
+    margin: 0 auto;
+  }
+  
+  nav a:hover::after{
+    width: 45%;
+    
+  }
+  nav a:hover::before{
+    width: 45%;
+  
+  }
+  
+  footer{
+    font-size: 0.7em;
+  }
+
+
+ 
+}

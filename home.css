@@ -1,0 +1,201 @@
+.bg_pic {
+  min-height: 750px;
+  background-position: bottom;
+  background-size: cover;
+}
+
+/* עושה שלטקסט יהיה רקע מושחר שקוף */
+.carousel-item .carousel-caption {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(86, 147, 142, 0.63) 100%);
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 50%;
+  transition: 2000ms;
+  padding: 16px 0;
+  
+}
+
+.carousel-item .carousel-caption:hover {
+  transition: 2000ms;
+  transform: scale(1,1);
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,169,255,1) 0%);
+}
+main {
+  min-height: 500px;
+ background: rgba(70, 213, 252, 0.626);
+}
+main h1{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 3.5em;
+
+}
+main h1::after{
+  content: "";
+  display: block;
+  height: 8px;
+  width: 37%;
+  background: rgb(0, 119, 255);
+  transition: 1000ms;
+  margin: 0 auto;
+}
+main h1:hover{
+  color: darkcyan;
+  transition: 1000ms;
+  transform: scale(1.1);
+}
+main h2{
+  font-size: 1.4em;
+  padding: 16px;
+  color: black;
+  
+}
+
+main h2:hover{
+transform: scale(1.1);
+  color: blue;
+  transition: 1000ms;
+  
+}
+ main a{
+  text-decoration: none;
+ }
+
+
+ main .box1:hover{
+ 
+  transform: scale(1.1);
+  
+  transition: 1000ms;
+
+}
+
+main .box2:hover{
+ 
+  transform: scale(1.1);
+  
+  transition: 1000ms;
+  -webkit-box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82); 
+box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82);
+
+}
+
+main .box3:hover{
+ 
+  transform: scale(1.1);
+  
+  transition: 1000ms;
+
+}
+
+main .box1{
+  min-height: 350px;
+  /* background-image: url(); */
+  background-size: cover;
+  background-position: center;
+  border: 2px black solid;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82); 
+box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82);
+  
+
+}
+
+main .box2{
+  min-height: 350px;
+  /* background-image: url(https://i.ibb.co/1TgBrqJ/kosamui.jpg); */
+  background-size: cover;
+  background-position: center;
+  border: 2px black solid;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82); 
+box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82);
+
+}
+
+main .box3{
+  min-height: 350px;
+  /* background-image: url(https://i.ibb.co/StkMc8m/hotel.jpg); */
+  background-size: cover;
+  background-position: center;
+  border: 2px black solid;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82); 
+box-shadow: 5px 8px 15px 6px rgba(0,0,0,0.82);
+
+}
+
+
+
+
+
+
+article {
+  min-height: 500px;
+background:  rgb(70, 203, 252);
+  
+  padding: 8px;
+}
+
+article .boxs, img, .bottom {
+  min-height: 420px;
+  border: 4px solid rgba(50, 55, 205, 0.087);
+  border-radius: 50%;
+
+}
+
+article .boxi{
+  min-height: 420px;
+}
+
+
+
+article .bottom{
+  background: rgba(63, 160, 251, 0.815);
+}
+
+article .boxs {
+  min-height: 350px;
+  
+}
+
+
+
+@media (max-width: 768px) {
+  .bg_pic {
+    
+    background-position: center;
+    background-size:cover;
+  }
+
+  main h2{
+    font-size: 1.2em;
+    margin-top: 6px;
+  }
+
+
+  main .row .box .img {
+    height: 100%;
+    overflow: hidden;
+  }
+  main h1::after{
+    content: "";
+    display: block;
+    height: 8px;
+    width:78%;
+    background: rgb(0, 119, 255);
+    transition: 1000ms;
+    margin: 0 auto;
+  }
+
+  .phonetitle{
+    display: flex;
+   align-items: flex-end;
+    min-height: inherit;
+    font-size: 1.3em;
+   
+  }
+}
+ 
+
